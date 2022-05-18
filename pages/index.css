@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    font-family: "Ubuntu";
+    margin: 0;
+}
+.welcome{
+}
+.welcome__container{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/236/657/162/cyclone-colorful-pattern-magenta-wallpaper-preview.jpg");
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(250, 240, 220);
+
+}
+.welcome__title{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+}
+.main{
+
+}
+.main__content{
+    background-image: url("https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main__title{
+    font-size: 45px;
+    color: rgb(250, 240, 220)   
+}
+.main__presentation{
+    padding: 15px;
+    color: rgb(250, 240, 220)
+}
+.porfolio{
+    background-color: darkorchid;
+    color: rgb(250, 240, 220);
+}
+.portfolio-title{
+    font-size: 38px;
+    text-align: center;
+    padding: 35px;
+}
+
+.portfolio-conteiner{
+    margin: 0;
+    padding: 20px;
+    display: grid;
+    gap: 40px;
+
+}
+.portfolio-card{
+    border: solid 2px black;
+    border-radius: 4px;
+}
+.portfolio-card-img{
+    object-fit: cover;
+    height: 255px;
+    width: 100%;
+
+}
+.porfolio-text-container{
+    padding: 20px;
+}
+.portfolio-card-title{
+    font-size: 30px;
+    margin: 0;
+
+}
+.portfolio-card-description{
+    margin: 20 px;
+    font-size: 18px;
+
+}
+.portfolio-link{
+    display: block;
+    text-align: right;
+    color:#51AFF3;
+
+}

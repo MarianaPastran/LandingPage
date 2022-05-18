@@ -1,0 +1,50 @@
+
+.header__container{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    }
+    .logo{  
+    width: 60px;  
+    }
+    .header__button-abrir, .header__button-cerrar{
+      border: none;
+      background-color: transparent;
+    }
+    .header__button-cerrar{
+      position: absolute;
+      top: 15px;
+      right: 15px;
+    }
+    .header__menu-btn-close{
+      text-align:right;
+    }
+    .header__button-img{
+      width: 40px;
+    }
+    .header__menu-container{
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        opacity: .75;
+    }
+    li a {
+      font-size: 48px;
+      text-decoration: none;
+      color: azure;
+    }
+    .header__menu {
+      margin: 150px auto;
+      text-align: center;
+      text-decoration: none;
+    }
+    .header__link{
+      padding: 25px;
+      text-decoration: none;
+    }
+    
